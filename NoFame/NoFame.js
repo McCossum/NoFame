@@ -1,4 +1,4 @@
-﻿function walk(rootNode)
+function walk(rootNode)
 {
     // Find all the text nodes in rootNode
     var walker = document.createTreeWalker(
@@ -70,7 +70,7 @@ function replaceText(v) {
     v = v.replace(/\bU Win-maung\b/g, "a monster");
     v = v.replace(/\bWang Xiangjun\b/g, "a monster");
     v = v.replace(/\bOne L. Goh\b/g, "a monster");
-    v = v.replace(/\bGoh, One L.\b/g, "a monster");
+    v = v.replace(/\bGoh, One L\b/g, "a monster");
     v = v.replace(/\bLee Chi Hang\b/g, "a monster");
     v = v.replace(/\bMohammed Ahmad Misleh al-Nazari\b/g, "a monster");
     v = v.replace(/\bBranimir Donchev\b/g, "a monster");
@@ -159,6 +159,68 @@ function replaceText(v) {
     v = v.replace(/\bChris Harper-Mercer\b/g, "a monster");
     v = v.replace(/\bHarper-Mercer\b/g, "a monster");
     v = v.replace(/\bAnthony Barbaro\b/g, "a monster");
+    v = v.replace(/\bAndrew Kehoe\b/g, "a monster");
+    v = v.replace(/\bThomas Hamilton\b/g, "a monster");
+    v = v.replace(/\bWellington Oliveira\b/g, "a monster");
+    v = v.replace(/\bWalter Seifert\b/g, "a monster");
+    v = v.replace(/\bMatti Saari\b/g, "a monster");
+    v = v.replace(/\bChristopher a monster\b/g, "a monster");
+    v = v.replace(/\bAlaa Abu Dhein\b/g, "a monster");
+    v = v.replace(/\bMichael Tselousov\b/g, "a monster");
+    v = v.replace(/\bOne Goh\b/g, "a monster");
+    v = v.replace(/\bElliot Rodger\b/g, "a monster");
+    v = v.replace(/\bPatrick Purdy\b/g, "a monster");
+    v = v.replace(/\bSteven Kazmierczak\b/g, "a monster");
+    v = v.replace(/\bAndrew Golden\b/g, "a monster");
+    v = v.replace(/\bMitchell Johnson\b/g, "a monster");
+    v = v.replace(/\bCharles Roberts\b/g, "a monster");
+    v = v.replace(/\bShi Ruoqiu\b/g, "a monster");
+    v = v.replace(/\bRobert Smith\b/g, "a monster");
+    v = v.replace(/\bJohn Zawahri\b/g, "a monster");
+    v = v.replace(/\bGang Lu\b/g, "a monster");
+    v = v.replace(/\bKipland Kinkel\b/g, "a monster");
+    v = v.replace(/\bHeinz Schmidt\b/g, "a monster");
+    v = v.replace(/\bMatthew Murray\b/g, "a monster");
+    v = v.replace(/\bChen Peiquan\b/g, "a monster");
+    v = v.replace(/\bClemmie Henderson\b/g, "a monster");
+    v = v.replace(/\bWang Hongbin\b/g, "a monster");
+    v = v.replace(/\bJaylen Fryberg\b/g, "a monster");
+    v = v.replace(/\bAlexander Koryakov\b/g, "a monster");
+    v = v.replace(/\bMohammed Merah\b/g, "a monster");
+    v = v.replace(/\bAnton Pettersson\b/g, "a monster");
+    v = v.replace(/\bMa Jiajue\b/g, "a monster");
+    v = v.replace(/\bLuke Woodham\b/g, "a monster");
+    v = v.replace(/\bFelin Mateo\b/g, "a monster");
+    v = v.replace(/\bChen Yanfu\b/g, "a monster");
+    v = v.replace(/\bMichael Carneal\b/g, "a monster");
+    v = v.replace(/\bRafael Solich\b/g, "a monster");
+    v = v.replace(/\bPeter Odighizuwa\b/g, "a monster");
+    v = v.replace(/\bThomas Lane\b/g, "a monster");
+    v = v.replace(/\bSuthat Wannasarn\b/g, "a monster");
+    v = v.replace(/\bBarry Loukaitis\b/g, "a monster");
+    v = v.replace(/\bAdam Labus\b/g, "a monster");
+    v = v.replace(/\bFrederick Davidson\b/g, "a monster");
+    v = v.replace(/\bRobert Flores Jr\b/g, "a monster");
+    v = v.replace(/\bDalton Stidham\b/g, "a monster");
+    v = v.replace(/\bMichael Slobodian\b/g, "a monster");
+    v = v.replace(/\bCharles Williams\b/g, "a monster");
+    v = v.replace(/\bTyrone Mitchell\b/g, "a monster");
+    v = v.replace(/\bJohn Higgins\b/g, "a monster");
+    v = v.replace(/\bBrenda Spencer\b/g, "a monster");
+    v = v.replace(/\bJames Wilson Jr\b/g, "a monster");
+    v = v.replace(/\bRobert Poulin\b/g, "a monster");
+    v = v.replace(/\bMark Houston\b/g, "a monster");
+    v = v.replace(/\bSteven Abrams\b/g, "a monster");
+    v = v.replace(/\bHuan Yun Xiang\b/g, "a monster");
+    v = v.replace(/\bYang Jiaqin\b/g, "a monster");
+    v = v.replace(/\bWayne Lo\b/g, "a monster");
+    v = v.replace(/\bAnatcha, Boonkwan\b/g, "a monster");
+    v = v.replace(/\bBoonkwan Anatcha\b/g, "a monster");
+    v = v.replace(/\bWu Jianguo\b/g, "a monster");
+    v = v.replace(/\bChen Wenzhen\b/g, "a monster");
+    v = v.replace(/\bWilliam Atchison\b/g, "a monster");
+    v = v.replace(/\bJames Wilson Jr\b/g, "a monster");
+    v = v.replace(/\bEric Houston\b/g, "a monster");
 
     return v;
 }
